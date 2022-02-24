@@ -28,7 +28,7 @@ int main(){
     cout<<"shows first element "<<tanjiro.front()<<endl;
     cout<<"shows last element "<<tanjiro.back()<<endl;
     cout<<"before erase size of deque "<<tanjiro.size()<<endl;
-    tanjiro.erase(tanjiro.begin(),tanjiro.begin() + 1);
+    tanjiro.erase(tanjiro.begin());
     cout<<"after erase size of deque "<<tanjiro.size()<<endl;
     for (int i = 0; i < tanjiro.size(); i++)
     {
